@@ -1,0 +1,36 @@
+@media only screen and (max-width:1100px)
+{
+    nav{
+        column-gap: 55vw;
+        top:0px;    
+    }
+    .logo_wrapper{
+        column-gap:2px;
+    }
+    /* .container
+    {
+        column-gap:37vw;
+    } */
+}
+@media only screen and (max-width:768px)
+{
+
+    nav{
+        column-gap: 35vw;
+    }
+    .item_wrapper
+    {
+        grid-template-columns: 250px 250px ;
+
+    }
+    .logo_wrapper
+    {
+        column-gap:2px;
+    }
+    .container
+    {
+        column-gap: 5vw;
+    }
+}
+
+

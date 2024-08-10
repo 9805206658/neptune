@@ -1,0 +1,116 @@
+*
+{
+  padding:0px;
+  margin:0px;
+}
+nav div:first-child
+{
+  font-weight: bold;
+}
+
+nav{
+ 
+  display:flex;
+  background-color: rgba(0, 0, 0, 0.855);
+  color:white;
+ column-gap: 74vw;
+  padding:15px 10px;
+  position: sticky;
+  top:0px;
+}
+.menu
+{
+  display: flex;
+  list-style-type:none;
+  font-size:12px;
+  column-gap:15%;
+}
+
+div+ul li
+{
+ transition: border-bottom 50s;
+}
+div+ul li:hover
+{
+   border-bottom:1px solid white;
+}
+.topic
+{
+  padding:50px 0px;
+  text-align:center;
+}
+.container
+{
+  display:flex;
+  justify-content: center;
+  column-gap:23vw;
+}
+.container  div:first-child
+{
+  color:rgba(0, 0, 0, 0.352);
+  font-size:14px;
+}
+div input[type="search"],select
+{
+  width:125px;
+}
+.item_wrapper
+{
+  display: grid;
+  column-gap:20px;
+  justify-content: center;
+  row-gap:25px; 
+  grid-template-columns: 250px 250px 250px;
+}
+.item_wrapper+p{
+  padding:25px 25px;
+}
+.logo_wrapper
+{
+  display: flex;
+  padding:25 0px;
+  column-gap: 45px;
+  justify-content: center;
+}
+.logos
+{
+  width:100px;
+  height:100px;
+}
+footer
+{
+  display: flex;
+  background-color: black;
+  padding:50px 0px;
+  color:white;
+  flex-direction: column;
+  row-gap:30px;
+}
+footer h2:first-child
+{
+  text-align: center;
+}
+footer div p,div i,footer div
+{
+  color:white;
+  font-size:10px;
+}
+
+footer div:last-child
+{
+  text-align: center;
+}
+.info i{
+
+  border-bottom:3px solid red;
+}
+input[type="search"]+label i
+{
+  color:black;
+  position: absolute;
+  left:69.5vw;
+  top:36.5vh;
+}
+
+
+  
